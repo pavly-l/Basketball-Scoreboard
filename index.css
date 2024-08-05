@@ -1,0 +1,68 @@
+@font-face {
+  font-family: CursedTimer, sans-serif;
+  src: url(fonts/CursedTimer.ttf);
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Verdana", sans-serif;
+  src: url(fonts/Verdana.ttf);
+  font-weight: 700;
+  font-style: normal;
+}
+body {
+    margin: 0;
+    background: #1B244A;
+    color: #EEEEEE;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+}
+#home-1,#away-1{
+    width: 4.5em;
+    align-items: center;
+    height: 1.5em;
+    margin: 10px 0;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    background: #080001;
+    color: #F94F6D;
+    font-family: CursedTimer, sans-serif;
+    font-size: 48px;
+    text-align: center;
+    
+}
+.btn-container{
+    margin: 0;
+    display: flex;
+    gap:5px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.btn{
+    width: 45px;
+    height: 45px;
+    background-color: transparent;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: CursedTimer, sans-serif;
+    color: #9AABD8;
+}
+h3{
+    width: width: 5em;
+    font-size: 2em;
+    font-family: "Verdana", sans-serif;
+}
+#Reset{
+    width: 65px;
+    height: 45px;
+}
